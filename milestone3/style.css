@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading {
+    padding: 20px;
+    padding-bottom: 10px;
+    color: rgb(24, 27, 54);
+    font-size: 25px;
+    border-bottom: 2px solid rgb(11, 11, 40);
+    width: 50%;
+    margin-bottom: 20px;
+}
+#resume {
+    background-color: rgb(168, 222, 255);
+    width: 50%;
+    padding: 20px;
+    height: 150%;
+    border: 1px solid rgb(168, 222, 255);
+    box-shadow: 10px 9px 9px 9px rgb(161, 172, 180);
+    border-radius: 10px;
+}
+.personal {
+    height: 20px;
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+    text-align: left;
+}
+
+.info, .skills, .experience, .education{
+    text-align: left;
+    color: rgb(44, 43, 43);
+    padding-top: 20px;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="submit"],
+textarea {
+    width: 98%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+input[type="submit"]
+{
+    background-color: rgb(13, 20, 34);
+    color: white;
+    font-family: century gothic;
+    cursor: pointer;
+}
+#display-resume{
+    max-width: 638px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
